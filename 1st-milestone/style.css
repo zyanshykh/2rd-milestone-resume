@@ -1,0 +1,63 @@
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-L4ynUuYutsmt1fAMLXhA0mtlrZaMn_Oa7w&s);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    text-align: center;
+    color: rgb(177, 219, 129);
+   }
+form{
+    max-width: 600px;
+    margin:auto;
+    background-color: rgba(38, 53, 43, 0.247);
+    border-radius: 8px;
+    border-width: 5px 5px 5px 5px;
+    border-color: green;
+    border-style: groove;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+    padding: 20px;
+}   
+fieldset{
+    border: 2px solid rgb(38, 39, 36);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+legend{
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+label{
+    display: block;
+    margin-top: 10px;
+    color: 2c3e50;
+}
+input,textarea{
+    width: calc(100%-1px);
+    padding: 8px;
+    margin-top: 4;
+    border: 1px solid rgb(75, 80, 79);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button{
+    display: block;
+    width: 90px;
+    height: 60px;
+    padding:10px;
+    background:rgb(143, 45, 45) ;
+    color: rgb(1, 29, 6);
+    border: 3px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: sans-serif;
+
+}
+button:hover{
+    background-color: rgb(85, 136, 8);
+
+}
